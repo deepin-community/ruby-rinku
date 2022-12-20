@@ -1,0 +1,15 @@
+Document: ruby-rinku-doc
+Title: Debian ruby-rinku Manual
+Author: Vicent Marti <vicent@github.com>
+Abstract: autolinker for Ruby
+ Rinku is a Ruby library that does autolinking.
+ .
+ It parses text and turns anything that remotely resembles a link into an HTML
+ link, just like the Ruby on Rails `auto_link` method -- but it's about 20
+ times faster, because it's written in C, and it's about 20 times smarter when
+ linking, because it does actual parsing instead of RegEx replacements.
+Section: Programming/Ruby
+
+Format: HTML
+Index: /usr/share/doc/ruby-rinku-doc/html/index.html
+Files: /usr/share/doc/ruby-rinku-doc/html/*

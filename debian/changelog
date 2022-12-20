@@ -1,0 +1,38 @@
+ruby-rinku (1.7.3-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:05:04 +0800
+
+ruby-rinku (1.7.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Cédric Boutillier ]
+  * Bump debhelper compatibility level to 9
+  * Remove version in the gem2deb build-dependency
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Christian Hofstaedtler ]
+  * Upload to unstable.
+
+ -- Christian Hofstaedtler <zeha@debian.org>  Fri, 04 Mar 2016 19:11:46 +0100
+
+ruby-rinku (1.7.3-2~exp1) experimental; urgency=medium
+
+  * Team upload.
+  * d/watch: Fall-back to Github (githubredir webservice was discontinued)
+  * Target experimental and build with ruby 2.2.
+  * Add ruby-test-unit to Build-Depends for ruby2.2.
+  * Update Vcs-Browser to cgit URL and HTTPS.
+  * Bump Standards-Version to 3.9.6 (no further changes).
+
+ -- Sebastien Badia <seb@sebian.fr>  Mon, 20 Apr 2015 00:12:27 +0200
+
+ruby-rinku (1.7.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #711458)
+
+ -- Per Andersson <avtobiff@gmail.com>  Fri, 07 Jun 2013 02:08:18 +0200
